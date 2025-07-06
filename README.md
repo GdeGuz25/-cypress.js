@@ -1,2 +1,2 @@
-# Gdeguz25-.github.io
+Github.io
 Примеры автотеста на Cypress
