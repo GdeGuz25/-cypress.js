@@ -1,2 +1,2 @@
-Github.io
-Примеры автотеста на Cypress
+
+Автотесты на клиентскую часть на Cypress JavaScript
