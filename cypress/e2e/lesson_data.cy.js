@@ -24,14 +24,14 @@ describe('Проверка авторизации', function () {
 
     it('Верный логин и неверный пароль', function () {
         cy.get(main_page.email).type(data.login);
-        cy.get(main_page.password).type('iLoveqastudio2');
+        cy.get(main_page.password).type('user_password');
         cy.get(main_page.login_button).click();
         cy.get(result_page.title).should('be.visible');
         cy.get(result_page.title).contains('Такого логина или пароля нет');
     })
 
     it('Валидация на наличие @', function () {
-        cy.get(main_page.email).type('germandolnikov.ru');
+        cy.get(main_page.email).type('user_name');
         cy.get(main_page.password).type(data.password);
         cy.get(main_page.login_button).click();
         cy.get(result_page.title).should('be.visible');
