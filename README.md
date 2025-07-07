@@ -23,7 +23,7 @@
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/cypress_UI.png)
 
 4. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-24-15.png)
+![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/cypress_bash.png)
 
 5. Каждая страница описана в формате объекта с локаторами
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/lockators.png)
