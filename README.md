@@ -20,13 +20,13 @@
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/baseUrl.png)
 
 3. Применение хуков beforeEach и afterEach
-![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-23-26.png)
+![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/cypress_UI.png)
 
 4. Переменные данные для авторизации вынесены в отдельный файл
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-24-15.png)
 
 5. Каждая страница описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-24-55.png)
+![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/lockators.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -36,7 +36,7 @@
 npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-55-35.png)
+![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/hooks.png)
 
 
 ## Локальный запуск через Cypress UI
@@ -49,7 +49,7 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-56-24.png)
+![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/user_data.png)
 
 
 ## Автор
