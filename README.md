@@ -17,15 +17,15 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-22-16.png)
+![image](https://github.com/GdeGuz25/Cypress.js_autotests/blob/main/baseUrl.png)
 
-2. Применение хуков beforeEach и afterEach
+3. Применение хуков beforeEach и afterEach
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-23-26.png)
 
-3. Переменные данные для авторизации вынесены в отдельный файл
+4. Переменные данные для авторизации вынесены в отдельный файл
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-24-15.png)
 
-4. Каждая страница описана в формате объекта с локаторами
+5. Каждая страница описана в формате объекта с локаторами
 ![image](https://raw.githubusercontent.com/GdeGuz25/Cypress.js_autotests/refs/heads/main/2025-07-07_22-24-55.png)
 
 ## Локальный запуск тестов (из терминала)
