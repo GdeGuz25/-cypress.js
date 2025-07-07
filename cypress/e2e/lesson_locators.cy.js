@@ -14,24 +14,24 @@ describe('Проверка авторизации', function () {
         });
 
    it('Верный пароль и верный логин', function () {
-        cy.get(main_page.email).type('german@dolnikov.ru');
-        cy.get(main_page.password).type('iLoveqastudio1');
+        cy.get(main_page.email).type('user_name');
+        cy.get(main_page.password).type('user_password');
         cy.get(main_page.login_button).click();
         cy.get(result_page.title).should('be.visible');
         cy.get(result_page.title).contains('Авторизация прошла успешно');
     })
 
     it('Верный логин и неверный пароль', function () {
-        cy.get(main_page.email).type('german@dolnikov.ru');
-        cy.get(main_page.password).type('iLoveqastudio2');
+        cy.get(main_page.email).type('user_name');
+        cy.get(main_page.password).type('user_password');
         cy.get(main_page.login_button).click();
         cy.get(result_page.title).should('be.visible');
         cy.get(result_page.title).contains('Такого логина или пароля нет');
     })
 
     it('Валидация на наличие @', function () {
-        cy.get(main_page.email).type('germandolnikov.ru');
-        cy.get(main_page.password).type('iLoveqastudio');
+        cy.get(main_page.email).type('user_name');
+        cy.get(main_page.password).type('user_password');
         cy.get(main_page.login_button).click();
         cy.get(result_page.title).should('be.visible');
         cy.get(result_page.title).contains('Нужно исправить проблему валидации');
@@ -39,7 +39,7 @@ describe('Проверка авторизации', function () {
 
     it('Восстановление пароля', function () {
         cy.get(main_page.fogot_pass_btn).click();
-        cy.get(recovery_password_page.email).type('german@dolnikov.ru');
+        cy.get(recovery_password_page.email).type('user_name');
         cy.get(recovery_password_page.send_button).click();
         cy.get(result_page.title).contains('Успешно отправили пароль на e-mail');
     })
